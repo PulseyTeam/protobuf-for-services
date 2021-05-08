@@ -1,5 +1,5 @@
-<p align="center"><img src="https://i.imgur.com/sORhLIx.png" width="400"></p>
+<p align="center"><img src="https://i.imgur.com/sORhLIx.png" width="300"></p>
 
-<h6 align="center">
+<h3 align="center">
     ProtoBuf files for the Online Game Service
-</h6>
+</h3>
