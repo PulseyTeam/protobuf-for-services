@@ -30,6 +30,14 @@ enum Direction {
   STOP = 4;
 }
 
+message RoomConnectRequest{
+  string map_id = 1;
+}
+
+message RoomConnectResponse{
+  string room_id = 1;
+}
+
 message RoomStreamRequest {
   Player player = 1;
   string room_id = 2;
@@ -37,12 +45,4 @@ message RoomStreamRequest {
 
 message RoomStreamResponse {
   repeated Player players = 1;
-}
-
-message RoomConnectRequest{
-  string map_id = 1;
-}
-
-message RoomConnectResponse{
-  string room_id = 1;
 }
