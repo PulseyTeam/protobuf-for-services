@@ -24,23 +24,19 @@ namespace MultiplayerService {
     static MultiplayerReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChFtdWx0aXBsYXllci5wcm90bxIPcHVsc2V5LnByb3RvYnVmIoABCgZQbGF5",
-            "ZXISCgoCaWQYASABKAkSDAoEbmFtZRgCIAEoCRItCghwb3NpdGlvbhgDIAEo",
-            "CzIbLnB1bHNleS5wcm90b2J1Zi5Db29yZGluYXRlEi0KCWRpcmVjdGlvbhgF",
-            "IAEoDjIaLnB1bHNleS5wcm90b2J1Zi5EaXJlY3Rpb24iIgoKQ29vcmRpbmF0",
-            "ZRIJCgF4GAEgASgCEgkKAXkYAiABKAIiJAoSUm9vbUNvbm5lY3RSZXF1ZXN0",
-            "Eg4KBm1hcF9pZBgBIAEoCSImChNSb29tQ29ubmVjdFJlc3BvbnNlEg8KB3Jv",
-            "b21faWQYASABKAkiTQoRUm9vbVN0cmVhbVJlcXVlc3QSJwoGcGxheWVyGAEg",
-            "ASgLMhcucHVsc2V5LnByb3RvYnVmLlBsYXllchIPCgdyb29tX2lkGAIgASgJ",
-            "Ij4KElJvb21TdHJlYW1SZXNwb25zZRIoCgdwbGF5ZXJzGAEgAygLMhcucHVs",
-            "c2V5LnByb3RvYnVmLlBsYXllcio8CglEaXJlY3Rpb24SBgoCVVAQABIICgRE",
-            "T1dOEAESCAoETEVGVBACEgkKBVJJR0hUEAMSCAoEU1RPUBAEMskBChJNdWx0",
-            "aXBsYXllclNlcnZpY2USWAoLUm9vbUNvbm5lY3QSIy5wdWxzZXkucHJvdG9i",
-            "dWYuUm9vbUNvbm5lY3RSZXF1ZXN0GiQucHVsc2V5LnByb3RvYnVmLlJvb21D",
-            "b25uZWN0UmVzcG9uc2USWQoKUm9vbVN0cmVhbRIiLnB1bHNleS5wcm90b2J1",
-            "Zi5Sb29tU3RyZWFtUmVxdWVzdBojLnB1bHNleS5wcm90b2J1Zi5Sb29tU3Ry",
-            "ZWFtUmVzcG9uc2UoATABQh9aCC4vO3Byb3RvqgISTXVsdGlwbGF5ZXJTZXJ2",
-            "aWNlYgZwcm90bzM="));
+            "ChFtdWx0aXBsYXllci5wcm90byJgCgZQbGF5ZXISCgoCaWQYASABKAkSDAoE",
+            "bmFtZRgCIAEoCRIdCghwb3NpdGlvbhgDIAEoCzILLkNvb3JkaW5hdGUSHQoJ",
+            "ZGlyZWN0aW9uGAUgASgOMgouRGlyZWN0aW9uIiIKCkNvb3JkaW5hdGUSCQoB",
+            "eBgBIAEoAhIJCgF5GAIgASgCIiQKElJvb21Db25uZWN0UmVxdWVzdBIOCgZt",
+            "YXBfaWQYASABKAkiJgoTUm9vbUNvbm5lY3RSZXNwb25zZRIPCgdyb29tX2lk",
+            "GAEgASgJIj0KEVJvb21TdHJlYW1SZXF1ZXN0EhcKBnBsYXllchgBIAEoCzIH",
+            "LlBsYXllchIPCgdyb29tX2lkGAIgASgJIi4KElJvb21TdHJlYW1SZXNwb25z",
+            "ZRIYCgdwbGF5ZXJzGAEgAygLMgcuUGxheWVyKjwKCURpcmVjdGlvbhIGCgJV",
+            "UBAAEggKBERPV04QARIICgRMRUZUEAISCQoFUklHSFQQAxIICgRTVE9QEAQy",
+            "iQEKEk11bHRpcGxheWVyU2VydmljZRI4CgtSb29tQ29ubmVjdBITLlJvb21D",
+            "b25uZWN0UmVxdWVzdBoULlJvb21Db25uZWN0UmVzcG9uc2USOQoKUm9vbVN0",
+            "cmVhbRISLlJvb21TdHJlYW1SZXF1ZXN0GhMuUm9vbVN0cmVhbVJlc3BvbnNl",
+            "KAEwAUIfWgguLztwcm90b6oCEk11bHRpcGxheWVyU2VydmljZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::MultiplayerService.Direction), }, new pbr::GeneratedClrTypeInfo[] {

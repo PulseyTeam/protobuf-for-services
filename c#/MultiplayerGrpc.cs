@@ -10,26 +10,26 @@ using grpc = global::Grpc.Core;
 namespace MultiplayerService {
   public static partial class MultiplayerService
   {
-    static readonly string __ServiceName = "pulsey.protobuf.MultiplayerService";
+    static readonly string __ServiceName = "MultiplayerService";
 
-    static readonly grpc::Marshaller<global::MultiplayerService.RoomConnectRequest> __Marshaller_pulsey_protobuf_RoomConnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::MultiplayerService.RoomConnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::MultiplayerService.RoomConnectResponse> __Marshaller_pulsey_protobuf_RoomConnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::MultiplayerService.RoomConnectResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::MultiplayerService.RoomStreamRequest> __Marshaller_pulsey_protobuf_RoomStreamRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::MultiplayerService.RoomStreamRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::MultiplayerService.RoomStreamResponse> __Marshaller_pulsey_protobuf_RoomStreamResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::MultiplayerService.RoomStreamResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::MultiplayerService.RoomConnectRequest> __Marshaller_RoomConnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::MultiplayerService.RoomConnectRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::MultiplayerService.RoomConnectResponse> __Marshaller_RoomConnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::MultiplayerService.RoomConnectResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::MultiplayerService.RoomStreamRequest> __Marshaller_RoomStreamRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::MultiplayerService.RoomStreamRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::MultiplayerService.RoomStreamResponse> __Marshaller_RoomStreamResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::MultiplayerService.RoomStreamResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::MultiplayerService.RoomConnectRequest, global::MultiplayerService.RoomConnectResponse> __Method_RoomConnect = new grpc::Method<global::MultiplayerService.RoomConnectRequest, global::MultiplayerService.RoomConnectResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "RoomConnect",
-        __Marshaller_pulsey_protobuf_RoomConnectRequest,
-        __Marshaller_pulsey_protobuf_RoomConnectResponse);
+        __Marshaller_RoomConnectRequest,
+        __Marshaller_RoomConnectResponse);
 
     static readonly grpc::Method<global::MultiplayerService.RoomStreamRequest, global::MultiplayerService.RoomStreamResponse> __Method_RoomStream = new grpc::Method<global::MultiplayerService.RoomStreamRequest, global::MultiplayerService.RoomStreamResponse>(
         grpc::MethodType.DuplexStreaming,
         __ServiceName,
         "RoomStream",
-        __Marshaller_pulsey_protobuf_RoomStreamRequest,
-        __Marshaller_pulsey_protobuf_RoomStreamResponse);
+        __Marshaller_RoomStreamRequest,
+        __Marshaller_RoomStreamResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
